@@ -1,0 +1,55 @@
+TASK 1
+
+
+1.cd Desktop
+2.mkdir myProject
+3.cd myProject
+4.touch app.js
+5.cd ..  && mkdir myProject2
+6. cp myProject/app.js myProject2/app.js
+
+
+TASK 2
+home/recruit/
+1.touch exercise.txt && mv exercise.txt /tmp && rm -f /tmp/exercise.txt
+
+TASK 3
+
+1 and 2.cat> umuzi.txt #and in the folowing blank line i typed 'This is from Umuzi.txt file'. #CTRL+z to cancel when done typing
+cat> recruits.txt #and in the folowing blank line i typed 'This is from Recruits.txt file'.#CTRL+z to cancel when done typing
+cat> cohort.txt #and in the folowing blank line i typed 'This is from Cohort.txt file'.#CTRL+z to cancel when done typing
+3.cat umuzi.txt recruits.txt cohort.txt
+4.cat umuzi.txt recruits.txt cohort.txt>summary.txt
+5.echo 'Text in here' >> summary.txt
+
+TASK 4
+
+1.locate umuzi
+2.locate umuzi > search_result.txt
+
+
+TASK 5
+
+1. mkdir mydocuments && cd mydocument && touch pad.txt
+2.cd Desktop && mkdir work
+  cp /pad.txt work/pad_copy.txt 
+3. cp ~/mydocuments/pad.txt work/pad_copy.txt
+4.sudo updatedb 
+5.cd ../
+6.locate pad_copy.txt
+
+  
+
+TASK 6
+
+1.find -name "*.pdf"
+2.mkdir ~/Desktop/nyiko && find -type f -name "*.pdf" -exec cp {} ~/Desktop/nyiko \;
+3.find ~/ -daystart -type f -mtime 0
+
+TASK 7
+
+1.nano my_bio.txt
+2.Ctrl + s  , Ctrl + X
+3.mkdir my_files && mv my_bio.txt my_files
+
+
